@@ -3,35 +3,38 @@
 <p align="center"><i>I specialize in Javascript, C# and LUA.</i></p>
 
 
-
-
-
 # My `ESX Brasil` Projects
 - [Base](https://github.com/ESX-Brasil/base)
 - [Public Launcher](https://github.com/psycodeliccircus/ESXBrasilRP/)
 
+# Statistics 
+<div align="center">
+  <a href="https://github.com/psycodeliccircus">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=psycodeliccircus&show_icons=true&theme=react&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=psycodeliccircus&layout=compact&langs_count=7&theme=react"/>
+</div>
 
 # Languages
-[![forthebadge](https://forthebadge.com/images/badges/made-with-c-sharp.svg)](https://esxframework.com.br/)<br></br>
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://esxframework.com.br/)<br></br>
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://esxframework.com.br/)<br></br>
-[![forthebadge](https://forthebadge.com/images/badges/made-with-rust.svg)](https://esxframework.com.br/)<br></br>
-[![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)](https://esxframework.com.br/)<br></br>
-[![forthebadge](https://esxframework.com.br/uploads/pages_media/0_made-with-lua.svg)](https://esxframework.com.br/)<br></br>
+<div style="display: inline_block"><br>
+  <img align="center" alt="RenildoMarcio-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="RenildoMarcio-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+  <img align="center" alt="RenildoMarcio-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="RenildoMarcio-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="RenildoMarcio-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="RenildoMarcio-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+  <img align="center" alt="RenildoMarcio-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
+</div>
 
-# My Discords
-[![Xen](https://discordapp.com/api/guilds/693468263161659402/widget.png?style=banner4)](https://esxframework.com.br/discord/invite/ESXFramework/)
 
 # Contact Me
-[![y](https://img.shields.io/badge/-Discord-7289DA?style=for-the-badge&logo=Discord&logoColor=white)](https://discord.com/users/389558396195438593)
-[![y](https://img.shields.io/badge/-renildomarcio-1769FF?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/follow/renildomarcio)
+<div> 
+  <a href="https://www.youtube.com/renildomarcio" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
+  <a href="https://instagram.com/renildomarcio" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+ 	<a href="https://www.twitch.tv/renildomarcio" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
+ <a href="https://esxframework.com.br/discord/invite/ESXFramework/" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
+  <a href = "mailto:renildomrc@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+ 
+  ![Snake animation](https://github.com/psycodeliccircus/psycodeliccircus/blob/output/github-contribution-grid-snake.svg)
+ 
+</div>
 
-
-
-# Statistics 
-![dd](https://github-readme-stats-eight-theta.vercel.app/api?username=psycodeliccircus&show_icons=true&theme=react&include_all_commits=true&count_private)
-
-![1](https://github-readme-stats.vercel.app/api/top-langs/?username=psycodeliccircus&theme=blue-green)
-
-
-[![devondiscord](https://img.shields.io/badge/TEAM-ESXBrasil%20ON%20DISCORD-%23738ADB?style=for-the-badge&logo=discord)](https://esxframework.com.br/discord/invite/ESXFramework/)
