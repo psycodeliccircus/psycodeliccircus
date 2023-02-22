@@ -8,29 +8,16 @@
 
 # Statistics 
 <div align="center">
-  <a href="https://github.com/psycodeliccircus">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=psycodeliccircus&show_icons=true&theme=react&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=psycodeliccircus&layout=compact&langs_count=7&theme=react"/>
+  
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=psycodeliccircus&count_private=true&show_icons=true&title_color=0A16EB&text_color=ffffff&icon_color=0A16EB&border_color=0d1117&bg_color=0d1117)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=psycodeliccircus&theme=dark&locale=pt_BR&date_format=j%2Fn%5B%2FY%5D&fire=0A16EB&ring=0A16EB&currStreakLabel=0A16EBFE&stroke=0A16EBFE&sideLabels=0A16EB&background=0D1117FE&border=0D1117FE)
+
+![Github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=psycodeliccircus&bg_color=0D1117FE&color=FFFFFF&line=FFFFFF&point=0A16EB&area_color=0A16EB&area=true&hide_border=true)
 </div>
 
 # Languages
-<div style="display: inline_block"><br>
-  <img align="center" alt="RenildoMarcio-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="RenildoMarcio-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-  <img align="center" alt="RenildoMarcio-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="RenildoMarcio-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="RenildoMarcio-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="RenildoMarcio-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt="RenildoMarcio-Android" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-plain.svg">
-  <img align="center" alt="RenildoMarcio-Lua" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/lua/lua-plain.svg">
-  <img align="center" alt="RenildoMarcio-PHP" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-plain.svg">
-  <img align="center" alt="RenildoMarcio-Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-plain.svg">
-  <img align="center" alt="RenildoMarcio-MySQL" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-plain.svg">
-  <img align="center" alt="RenildoMarcio-wordpress" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-plain.svg">
-  <img align="center" alt="RenildoMarcio-woocommerce" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/woocommerce/woocommerce-plain.svg">
-  <img align="center" alt="RenildoMarcio-c" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-plain.svg">
-  <img align="center" alt="RenildoMarcio-csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-plain.svg">
-</div>
+![My Skills](https://skillicons.dev/icons?i=js,ts,html,css,nodejs,jquery,bootstrap,vscode,mongodb,postgres,cloudflare,discord,github,git)
 
 
 # Contact Me
