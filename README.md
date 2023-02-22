@@ -1,7 +1,5 @@
 
-<h1 align="center">Welcome, I am psycodeliccircus</h1>
-<p align="center"><i>I specialize in Javascript, C# and LUA.</i></p>
-
+<h1 align="center"><img src="https://readme-typing-svg.demolab.com?font=Jetbrains+Mono&weight=900&size=40&duration=3000&pause=1000&color=A4E3F8&center=true&vCenter=true&width=1000&height=40&lines=Welcome%2C+I+am+psycodeliccircus;I+specialize+in+Javascript%2C+C%23+and+LUA." alt="Typing SVG" /></h1>
 
 # My `ESX Brasil` Projects
 - [Base](https://github.com/ESX-Brasil/base)
