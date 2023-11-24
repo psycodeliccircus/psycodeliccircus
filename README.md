@@ -36,7 +36,7 @@
 </div>
 <br><br>
 <p align="center">
-  <a href="https://discord.com/users/690193135040593931.png" target="_blank">
-    <img alt="My Discord Account" src="https://discord.c99.nl/widget/theme-4/690193135040593931.png"  />
+  <a href="https://discord.com/users/767106577022320680" target="_blank">
+    <img alt="My Discord Account" src="https://discord.c99.nl/widget/theme-2/767106577022320680.png"  />
   </a>
 </p>
