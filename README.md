@@ -15,6 +15,12 @@
 
 ![Github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=psycodeliccircus&bg_color=0D1117FE&color=FFFFFF&line=FFFFFF&point=0A16EB&area_color=0A16EB&area=true&hide_border=true)
 </div>
+#teste
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
 
 # Languages
 ![My Skills](https://skillicons.dev/icons?i=js,ts,html,css,nodejs,jquery,bootstrap,vscode,mongodb,postgres,cloudflare,discord,github,git,lua)
