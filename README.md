@@ -1,11 +1,6 @@
 
 <h1 align="center"><img src="https://readme-typing-svg.demolab.com?font=Jetbrains+Mono&weight=900&size=40&duration=3000&pause=1000&color=0A16EB&center=true&vCenter=true&width=1000&height=40&lines=Welcome%2C+I+am+psycodeliccircus;I+specialize+in+Javascript%2C+C%23+and+LUA." alt="Typing SVG" /></h1>
 
-# My `ESX Brasil` Projects
-- [Base](https://github.com/ESX-Brasil/base)
-- [Public Launcher versão TS3](https://github.com/psycodeliccircus/ESXBrasilRP/)
-- [Public Launcher normal](https://github.com/psycodeliccircus/esxbrasillauncher/)
-
 # Statistics 
 <div align="center">
   
@@ -15,12 +10,10 @@
 
 ![Github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=psycodeliccircus&bg_color=0D1117FE&color=FFFFFF&line=FFFFFF&point=0A16EB&area_color=0A16EB&area=true&hide_border=true)
 </div>
-#teste
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" />
-</picture>
+
+# Contribution
+<img alt="github-snake" src="https://raw.githubusercontent.com/psycodeliccircus/psycodeliccircus/output/github-contribution-grid-snake-dark.svg" />
+
 
 # Languages
 ![My Skills](https://skillicons.dev/icons?i=js,ts,html,css,nodejs,jquery,bootstrap,vscode,mongodb,postgres,cloudflare,discord,github,git,lua)
