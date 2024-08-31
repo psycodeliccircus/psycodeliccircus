@@ -1,42 +1,40 @@
 name: generate animation
 
 on:
-  # run automatically every 24 hours
+  # Run automatically every hour
   schedule:
-    - cron: "0 */1 * * *" 
+    - cron: "0 */1 * * *"
   
-  # allows to manually run the job at any time
+  # Allows to manually run the job at any time
   workflow_dispatch:
   
-  # run on every push on the master branch
+  # Run on every push to the master branch
   push:
     branches:
     - master
 
 jobs:
   generate:
-    permissions: 
-      contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    
+    permissions:
+      contents: write  # Allow the job to write to the repository contents
+    runs-on: ubuntu-latest  # The job will run on the latest Ubuntu runner
+    timeout-minutes: 5  # The job will time out after 5 minutes if not completed
+
     steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
+      # Step to generate the SVG animation of the GitHub contributions
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: psycodeliccircus
+          github_user_name: psycodeliccircus  # Replace with the GitHub username
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          
-          
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
+      
+      # Step to push the generated SVG files to a specific branch
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output
-          build_dir: dist
+          target_branch: output  # Branch where the files will be pushed
+          build_dir: dist  # Directory containing the files to push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Token for authentication
