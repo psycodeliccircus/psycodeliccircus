@@ -6,9 +6,6 @@
   
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=psycodeliccircus&count_private=true&show_icons=true&title_color=0A16EB&text_color=ffffff&icon_color=0A16EB&border_color=0d1117&bg_color=0d1117)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=psycodeliccircus&theme=dark&locale=pt_BR&date_format=j%2Fn%5B%2FY%5D&fire=0A16EB&ring=0A16EB&currStreakLabel=0A16EBFE&stroke=0A16EBFE&sideLabels=0A16EB&background=0D1117FE&border=0D1117FE)
-
-![Github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=psycodeliccircus&bg_color=0D1117FE&color=FFFFFF&line=FFFFFF&point=0A16EB&area_color=0A16EB&area=true&hide_border=true)
 </div>
 
 # Contribution
@@ -24,7 +21,7 @@
 
 <p align="center">
   <a>
-    <img align="left" src ="https://raw.githubusercontent.com/Sobhan-SRZA/Sobhan-SRZA/main/source/social-media.png" width = 50% >
+    <img align="left" src ="https://chevereto.renildomarcio.com.br/images/2025/04/26/1c02419ef7c56764dd08fd39e764118d.png" width = 50% >
   </a>
 <div> 
   <a href="https://www.youtube.com/renildomarcio" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
