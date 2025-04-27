@@ -2,8 +2,11 @@ name: Update Repositories List
 
 on:
   schedule:
-    - cron: '0 * * * *' 
-  workflow_dispatch:    
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-repos:
@@ -18,18 +21,18 @@ jobs:
         with:
           node-version: '16'
 
-      - name: install and create package.json file
-        run: npm i node-fetch
-        
+      - name: Install dependencies
+        run: npm install node-fetch
+
       - name: Run generateReposTable script
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} 
-          GITHUB_USERNAME: ${{ github.repository_owner }}  
+          GITHUB_TOKEN:    ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
         run: node generateReposTable.js
 
       - name: Commit and push changes
         run: |
-          git config --local user.name "github-actions"
+          git config --local user.name  "github-actions"
           git config --local user.email "github-actions@github.com"
           git add REPOSITORIES.md
           git commit -m "Update repositories list" || echo "No changes to commit"

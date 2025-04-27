@@ -1,8 +1,13 @@
 import fetch from 'node-fetch';
 import fs from 'fs';
 
-const GITHUB_USERNAME = process.env.GH_USERNAME || 'YOUR_GITHUB_USERNAME';
-const GITHUB_TOKEN = process.env.GH_TOKEN || 'YOUR_GITHUB_TOKEN';
+const GITHUB_USERNAME = process.env.GITHUB_USERNAME || process.env.GITHUB_ACTOR;
+const GITHUB_TOKEN    = process.env.GITHUB_TOKEN;
+
+if (!GITHUB_TOKEN) {
+  console.error('❌ missing GITHUB_TOKEN');
+  process.exit(1);
+}
 
 async function fetchRepos(username) {
   const repos = [];
@@ -14,8 +19,8 @@ async function fetchRepos(username) {
     const apiUrl = `https://api.github.com/users/${username}/repos?per_page=${perPage}&page=${page}`;
     const response = await fetch(apiUrl, {
       headers: {
-        'Authorization': `token ${GITHUB_TOKEN}`,
-        'Accept': 'application/vnd.github.v3+json'
+        Authorization: `token ${GITHUB_TOKEN}`,
+        Accept:        'application/vnd.github.v3+json'
       }
     });
 
@@ -38,11 +43,9 @@ function generateMarkdownTable(repos) {
 
   repos.forEach((repo) => {
     const status = repo.private ? '🔒 Privado' : '🌐 Público';
-
     const techBadge = repo.language
       ? `![${repo.language}](https://img.shields.io/badge/-${encodeURIComponent(repo.language)}-blue?style=flat-square)`
       : '';
-
     const starsBadge = `![Stars](https://img.shields.io/github/stars/${GITHUB_USERNAME}/${repo.name}?style=flat-square)`;
     const forksBadge = `![Forks](https://img.shields.io/github/forks/${GITHUB_USERNAME}/${repo.name}?style=flat-square)`;
 
@@ -55,12 +58,12 @@ function generateMarkdownTable(repos) {
 async function main() {
   try {
     const repos = await fetchRepos(GITHUB_USERNAME);
-    console.log(`repositorise size: ${repos.length}`);
+    console.log(`repositories size: ${repos.length}`);
     const markdownTable = generateMarkdownTable(repos);
     fs.writeFileSync('REPOSITORIES.md', markdownTable);
-    console.log('REPOSITORIES.md has successfully created.');
+    console.log('REPOSITORIES.md has been successfully created.');
   } catch (error) {
-    console.error('get an error:', error);
+    console.error('Error during generation:', error);
   }
 }
 
