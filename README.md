@@ -33,6 +33,6 @@
 <br><br>
 <p align="center">
   <a href="https://discord.com/users/767106577022320680" target="_blank">
-    <img alt="My Discord Account" src="https://discord.c99.nl/widget/theme-2/767106577022320680.png"  />
+    <img alt="My Discord Account" src="https://discordbanner.renildomarcio.com.br/avatar/767106577022320680.png"  />
   </a>
 </p>
