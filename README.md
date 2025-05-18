@@ -1,6 +1,6 @@
 
 <h1 align="center"><img src="https://readme-typing-svg.demolab.com?font=Jetbrains+Mono&weight=900&size=40&duration=3000&pause=1000&color=0A16EB&center=true&vCenter=true&width=1000&height=40&lines=Welcome%2C+I+am+psycodeliccircus;I+specialize+in+Javascript%2C+C%23+and+LUA." alt="Typing SVG" /></h1>
-
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=psycodeliccircus&label=PERFIL+VISUALIZAÇÕES&color=000000&style=for-the-badge&abbreviated=true" alt="psycodeliccircus" /> </p>
 # Statistics 
 <div align="center">
   
