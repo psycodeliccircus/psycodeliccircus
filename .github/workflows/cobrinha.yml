@@ -1,40 +1,42 @@
 name: generate animation
 
 on:
-  # Run automatically every hour
+  # roda todo início de hora
   schedule:
-    - cron: "0 */1 * * *"
-  
-  # Allows to manually run the job at any time
+    - cron: "0 * * * *"
+  # permite disparo manual
   workflow_dispatch:
-  
-  # Run on every push to the master branch
+  # roda em pushes na branch principal
   push:
     branches:
-    - master
+      - main
 
 jobs:
   generate:
     permissions:
-      contents: write  # Allow the job to write to the repository contents
-    runs-on: ubuntu-latest  # The job will run on the latest Ubuntu runner
-    timeout-minutes: 5  # The job will time out after 5 minutes if not completed
+      contents: write
+      pages: write
+      id-token: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
-      # Step to generate the SVG animation of the GitHub contributions
-      - name: generate github-contribution-grid-snake.svg
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate SVG animation
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: psycodeliccircus  # Replace with the GitHub username
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      
-      # Step to push the generated SVG files to a specific branch
-      - name: push github-contribution-grid-snake.svg to the output branch
+        # não precisa do token aqui para usuário público :contentReference[oaicite:3]{index=3}
+
+      - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output  # Branch where the files will be pushed
-          build_dir: dist  # Directory containing the files to push
+          target_branch: output
+          build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Token for authentication
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
