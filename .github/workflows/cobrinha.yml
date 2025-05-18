@@ -1,37 +1,34 @@
 name: generate animation
 
 on:
-  # roda todo início de hora
-  schedule:
-    - cron: "0 * * * *"
-  # permite disparo manual
   workflow_dispatch:
-  # roda em pushes na branch principal
+  schedule:
+    - cron: "0 * * * *"   # todo início de hora
   push:
     branches:
       - main
 
 jobs:
   generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
     permissions:
       contents: write
       pages: write
       id-token: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Generate SVG animation
-        uses: Platane/snk/svg-only@v3
+        uses: platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: psycodeliccircus
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        # não precisa do token aqui para usuário público :contentReference[oaicite:3]{index=3}
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
