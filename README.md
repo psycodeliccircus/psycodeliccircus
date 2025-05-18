@@ -3,8 +3,10 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=psycodeliccircus&label=PERFIL+VISUALIZAÇÕES&color=000000&style=for-the-badge&abbreviated=true" alt="psycodeliccircus" /> </p>
 # Statistics 
 <div align="center">
-  
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=psycodeliccircus&count_private=true&show_icons=true&title_color=0A16EB&text_color=ffffff&icon_color=0A16EB&border_color=0d1117&bg_color=0d1117)
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=psycodeliccircus&count_private=true&show_icons=true&title_color=0A16EB&text_color=ffffff&icon_color=0A16EB&border_color=0d1117&bg_color=0d1117&rank_icon=github&locale=pt-br)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=psycodeliccircus&count_private=true&show_icons=true&title_color=0A16EB&text_color=ffffff&icon_color=0A16EB&border_color=0d1117&bg_color=0d1117&locale=pt-br)
 
 </div>
 
